@@ -9,7 +9,8 @@ RUN yum clean all &&\
     yum -y install mariadb-server bind-utils pwgen psmisc net-tools hostname zip unzip &&\
     yum clean all &&\
     rm -rf /var/tmp/ &&\
-    rm -rf /var/cache/yum
+    rm -rf /var/cache/yum &&\
+    chmod +x /start.sh
 EXPOSE 3306
 VOLUME /var/lib/mysql
 VOLUME /var/log/mariadb
