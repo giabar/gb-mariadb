@@ -1,2 +1,1 @@
-# gb-mariadb
-MariaDB Docker image
+# MariaDB Docker image
