@@ -21,8 +21,9 @@ docker run \
   --name gbmariadb \
   -e MYSQL_ROOT_PASSWORD=SecurePassword123 \
   -v /mariadb/db:/var/lib/mysql \
-  -v /maroadb/logs:/var/log/mariadb \
+  -v /mariadb/logs:/var/log/mariadb \
   giabar/gb-mariadb
 ```
+
 
 For details read the official documentation: https://hub.docker.com/_/mariadb/
