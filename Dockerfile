@@ -1,4 +1,4 @@
-FROM centos:7
+FROM centos:7.5.1804
 LABEL maintainer="GiaBar <giabar@giabar.com>"
 ADD mariadb.repo /etc/yum.repos.d/mariadb.repo
 ADD mariadb.cnf /etc/my.cnf.d/mariadb.cnf
