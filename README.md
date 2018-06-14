@@ -1,4 +1,4 @@
-# MariaDB Docker image
+# MariaDB 10.2.x Docker image
 
 > Docker image based on CentOS 7.5
 
