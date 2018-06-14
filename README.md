@@ -1,6 +1,6 @@
 # MariaDB Docker image
 
-> Docker image based on CentOS 7.4
+> Docker image based on CentOS 7.5
 
 Quick start:
 
@@ -11,6 +11,20 @@ docker run \
 -e MYSQL_ROOT_PASSWORD=SecurePassword123 \
 giabar/gb-mariadb
 ```
+
+Specify your db and credentials:
+
+```
+docker run \
+-d \
+-p 3306:3306 \
+-e MYSQL_ROOT_PASSWORD=password \
+-e MYSQL_DATABASE=mydb \
+-e MYSQL_USER=myuser \
+-e MYSQL_PASSWORD=mypassword \
+giabar/gb-mariadb
+```
+
 
 Where to store data:
 
